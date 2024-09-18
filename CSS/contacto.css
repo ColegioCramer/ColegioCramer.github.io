@@ -1,0 +1,43 @@
+@import url(styles.css);
+
+#portada_contacto1 {
+    background-image: url("../IMAGE/Rectangle\ 35.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.portada_contacto1 {
+    height: 500px;
+    width: 1000px;
+    align-items: center;
+
+    & .Boton_contacto {
+        position: relative;
+        bottom: 0%;
+        left: 40%;
+        padding: 25px;
+    }
+}
+
+.formulario_input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+
+    & h4 {
+        text-align: center;
+        color: var(--colorverdeoscuro);
+    }
+}
+
+.grupos_input {
+    width: 100%;
+}
+
+.grupos_input input,
+textarea {
+    width: 100%;
+    padding: 5px 10px;
+}

@@ -1,0 +1,29 @@
+@import url(styles.css);
+
+#Mission {
+    background-color: #ffffff;
+}
+
+.Mission_titulo {
+    text-align: center;
+    color: var(--colorverdeoscuro);
+}
+
+.mission_texto {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.vission_titulo {
+    text-align: center;
+    color: var(--colorverdeoscuro);
+}
+
+.vission_texto {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: center;
+}

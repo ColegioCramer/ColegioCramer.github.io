@@ -1,0 +1,65 @@
+@import url(styles.css);
+
+#portada {
+    background-color: #d1ffe0;
+
+}
+
+
+
+.texto_portada {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 50px;
+    height: 100%;
+    padding: 100px;
+
+    & h1 {
+        color: var(--colorverdeclaro);
+        text-shadow: rgb(8, 85, 4) 6px 6px 8px
+    }
+}
+
+.portada {
+    background-image: url("../IMAGE/Rectangle.jpg");
+    height: calc(100vh - 140px);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#niveles {
+    background-color: rgb(255, 255, 255);
+}
+
+.niveles_titulo {
+    text-align: center;
+    color: var(--colorverdeoscuro);
+}
+
+.seccion_texto {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: flex-start;
+
+    & h4 {
+        color: var(--coloramarillo);
+    }
+}
+
+.seccion_foto {
+    position: relative;
+    display: inline-block;
+
+    display: flex;
+    justify-content: center;
+    
+    & .seccion_boton {
+        position: absolute;
+        bottom: 0%;
+        left: 33%;
+        padding: 25px;
+    }
+}
